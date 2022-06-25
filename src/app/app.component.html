@@ -1,0 +1,29 @@
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+  <h4 class="text-white">Hospital Management System </h4>
+  <ul class = "navbar-nav ms-auto">
+    <li class = "nav-item">
+      <a routerLink="home" routerLinkActive="active" class="nav-link" >Home</a>
+  </li>
+      <li class = "nav-item">
+          <a routerLink="create-patient" routerLinkActive="active" class="nav-link" >Create Patient</a>
+      </li>
+      <li class = "nav-item">
+          <a routerLink="create-doctor" routerLinkActive="active" class="nav-link" >Create Doctor</a>
+      </li>
+      <li class = "nav-item">
+        <a routerLink="show-doctor" routerLinkActive="active" class="nav-link" >Doctor Information</a>
+    </li>
+    <li class = "nav-item">
+        <a routerLink="show-patient" routerLinkActive="active" class="nav-link" >Patient Information</a>
+    </li>
+    
+  </ul>
+</div>
+</nav>
+
+<div class = "container py-5" >
+  <router-outlet></router-outlet>
+</div>
+
